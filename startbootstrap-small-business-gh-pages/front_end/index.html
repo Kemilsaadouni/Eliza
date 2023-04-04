@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Patisserie Saadouni</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/Interia (1).png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="./styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">
+                    <img class="logo" src="../assets/Interia.png" alt="logo" width="150px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">A propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://img.cuisineaz.com/660x660/2018/04/18/i139509-cornes-de-gazelles-marocaines-de-ma-grand-mere.jpeg" alt="..." /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">Mouima</h1>
+                    <p>Il faut savoir que dans la culture marocaine et maghrébine, ce sont les grand-mères qui sont responsables de faire à manger pour toute la famille, elles réalisent donc aussi tous les gâteaux et les patisseries marocains. Nous avons appelé notre chatbot ainsi pour rendre hommage à toutes les grand-mères marocaines mais aussi les grand-mères en générale. Il peut vous fournir une assistance en temps réel pour répondre aux vos questions et résoudre vos problèmes rapidement, sans que vous n'ayez besoin de chercher vos réponses sur différents sites. Il peut vous recommander des produits en fonction de vos préférences et de l'occasion.</p>
+                </div>
+            </div>
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0">"Plongez dans un voyage de saveurs à chaque bouchée et découvrez des saveurs authentiques marocaines pour éveiller vos papilles"</p></div>
+            </div>
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="msemen" src="https://mafleurdoranger.com/wp-content/uploads/2021/04/msemen-vignette--scaled.jpg" alt="msemen" width="400px">
+                            <h2 class="card-title">Plus rapide que les Msemens!</h2>
+                            <p class="card-text">Tout comme les Msemens et leur cuisson rapide, il offre un support client instantané et personnalisé. Plus rapide qu'une bouchée de msemen croustillant et qu'une dégustation de chebakia sucrée, Mouima peut analyser votre demande et y répondre en un éclair avec précision.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="msemen" src="https://img.cuisineaz.com/660x660/2016/07/03/i18606-chebakia-facile.jpeg" alt="msemen" width="400px">
+                            <h2 class="card-title">Plus temps perdu et d'efforts inutiles!</h2>
+                            <p class="card-text">Plus besoin d'aller chercher votre réponse sur différents sites ou sur des forums, Il peut prendre en charge tout type de question. En étant guidé par Mouima, vous bénéficiez d'un gain de temps considérable pour s'informer et ainsi savourer ces pâtisseries marocaines traditionnelles, en les commandant en ligne.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <img class="msemen" src="https://mesdouceurssucressalesdotcom.files.wordpress.com/2018/05/zlabia.jpg?w=809" alt="msemen" width="400px">
+                            <h2 class="card-title">Pas besoin d'attendre la fin de cuisson</h2>
+                            <p class="card-text">Le chatbot peut traiter plusieurs demandes simultanément et fonctionner 24 heures sur 24, 7 jours sur 7. Plus de temps d'attente pour obtenir votre réponse, vous pourrez par exemple vous renseigner sur nos zlabias sans attendre plusieurs jours pour recevoir une réponse.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="icone-chatbot">
+                <img src="../assets/Interia (1).png" id="icone" alt="Cliquez pour ouvrir le chatbot">
+            </button>
+            <div class="chat-box">
+                <div class="chat-box-header">Mouima
+                    <img src="../assets/cancel.png" id="cancel" alt="Fermez le MaroCakeBot">
+                </div>
+                <div class="chat-box-body">
+                    <!-- Chat Messages go here -->
+                    <div class="loading hide">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <div class="circle circle-3"></div>
+                    </div>
+                </div>
+                <div class="chat-box-footer">
+                       <input type="text" placeholder="Ecrivez un message" />
+                       <button>Envoyer</button>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Saadouni 2023</p></div>
+        </footer>
+        <!-- Core theme JS-->
+        <script src="./scripts.js"></script>
+    </body>
+</html>
