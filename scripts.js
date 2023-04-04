@@ -19,7 +19,7 @@ function sendMessage() {
     scrollToBottom();
     showLoading();
 
-    fetch('http://localhost:3000/message', {
+    fetch('https://patisserie-saadouni.netlify.app:3000/message', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
